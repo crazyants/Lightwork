@@ -80,6 +80,8 @@ namespace Lightwork.Core
 
         public string CurrentAction { get; private set; }
 
+        public string CurrentActionTag { get; private set; }
+
         public CancellationToken CancellationToken { get; protected set; }
 
         public Task WorkflowTask { get; set; }
@@ -350,8 +352,10 @@ namespace Lightwork.Core
                 {
                     await BeginAction(arguments);
                     CurrentAction = action;
+                    CurrentActionTag = tag;
                     await OnAction(action, tag);
                     CurrentAction = null;
+                    CurrentActionTag = null;
                     await EndAction();
                 });
 
@@ -365,8 +369,10 @@ namespace Lightwork.Core
         {
             await BeginAction();
             CurrentAction = action;
+            CurrentActionTag = tag;
             var result = await OnAction<T>(action, tag);
             CurrentAction = null;
+            CurrentActionTag = null;
             await EndAction();
             return result;
         }
