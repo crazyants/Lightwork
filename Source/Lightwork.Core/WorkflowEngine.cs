@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public class WorkflowEngine : IDisposable
     {

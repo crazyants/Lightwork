@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core.Utilities
+namespace Lightwork.Core.Utilities
 {
     public static class Monads
     {

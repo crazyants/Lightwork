@@ -3,10 +3,10 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
-using D3.Lightwork.Core.Utilities;
+using Lightwork.Core;
+using Lightwork.Core.Utilities;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     public class WorkflowDbStore : WorkflowStore
     {

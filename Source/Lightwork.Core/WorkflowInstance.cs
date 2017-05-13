@@ -5,9 +5,9 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using D3.Lightwork.Core.Utilities;
+using Lightwork.Core.Utilities;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public class WorkflowInstance : IDisposable
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
+using Lightwork.Core;
 
-namespace D3.Lightwork.Tests.Workflows
+namespace Lightwork.Tests.Workflows
 {
     public class PerformanceTestWorkflows
     {

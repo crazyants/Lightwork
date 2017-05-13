@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     [WorkflowBehaviorOnLoad(BypassWorkflow = true)]
     public class SequentialWorkflow : Workflow

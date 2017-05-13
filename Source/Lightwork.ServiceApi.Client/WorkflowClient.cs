@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
-using D3.Lightwork.Core.Utilities;
+using Lightwork.Core;
+using Lightwork.Core.Utilities;
 
-namespace D3.Lightwork.ServiceApi.Client
+namespace Lightwork.ServiceApi.Client
 {
     public class WorkflowClient : IDisposable
     {

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using D3.Lightwork.Core;
-using D3.Lightwork.Tests.Workflows;
+﻿using System.Threading.Tasks;
+using Lightwork.Core;
+using Lightwork.Tests.Workflows;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace D3.Lightwork.Tests
+namespace Lightwork.Tests
 {
     [TestClass]
     public class AdvancedUnitTests

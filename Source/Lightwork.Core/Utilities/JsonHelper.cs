@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace D3.Lightwork.Core.Utilities
+namespace Lightwork.Core.Utilities
 {
     public static class JsonHelper
     {

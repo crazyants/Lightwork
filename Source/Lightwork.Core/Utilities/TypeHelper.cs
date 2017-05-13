@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 
-namespace D3.Lightwork.Core.Utilities
+namespace Lightwork.Core.Utilities
 {
     public static class TypeHelper
     {

@@ -2,9 +2,9 @@
 using System.Data.Entity;
 using System.Threading;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
+using Lightwork.Core;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     [WorkflowBehaviorOnLoad(BypassWorkflow = true)]
     public class DbContextWorkflow<TContext> : Workflow where TContext : DbContext, new()

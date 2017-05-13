@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using D3.Lightwork.Core;
-using D3.Lightwork.Data;
+using Lightwork.Core;
+using Lightwork.Data;
 
-namespace D3.Lightwork.Tests.Workflows
+namespace Lightwork.Tests.Workflows
 {
     public class IntegrationTestWorkflows
     {

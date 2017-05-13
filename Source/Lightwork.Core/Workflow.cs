@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public abstract class Workflow
     {

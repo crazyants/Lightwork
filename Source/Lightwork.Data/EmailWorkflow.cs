@@ -2,9 +2,9 @@
 using System.Collections.ObjectModel;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
+using Lightwork.Core;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     public class EmailWorkflow : Workflow
     {

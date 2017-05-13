@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     [Serializable]
     public class WorkflowStoreState

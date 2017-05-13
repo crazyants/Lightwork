@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class WorkflowBehaviorOnLoadAttribute : Attribute

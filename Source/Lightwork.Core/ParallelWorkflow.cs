@@ -4,7 +4,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     [WorkflowBehaviorOnLoad(BypassWorkflow = true)]
     public class ParallelWorkflow : Workflow

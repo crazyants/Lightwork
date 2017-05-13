@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     public class WorkflowDbContext : DbContext
     {

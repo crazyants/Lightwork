@@ -1,7 +1,7 @@
 ﻿using System;
-using D3.Lightwork.Core.Utilities;
+using Lightwork.Core.Utilities;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public abstract class Argument
     {

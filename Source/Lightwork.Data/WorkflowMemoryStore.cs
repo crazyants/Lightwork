@@ -1,10 +1,11 @@
 ﻿using System.Collections.Concurrent;
 using System.Linq;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
+using Lightwork.Core;
+
 #pragma warning disable 1998
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     public class WorkflowMemoryStore : WorkflowStore
     {

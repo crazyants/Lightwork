@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace D3.Lightwork.Data
+namespace Lightwork.Data
 {
     [Table("WorkflowSyncEvents")]
     public class WorkflowSyncEventEntity

@@ -1,4 +1,4 @@
-﻿namespace D3.Lightwork.Core
+﻿namespace Lightwork.Core
 {
     public delegate void WorkflowCompleteHandler(object sender, WorkflowCompleteEventArgs e);
 

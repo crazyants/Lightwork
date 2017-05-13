@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Reflection;
 using System.Web.Http;
-using D3.Lightwork.Core;
+using Lightwork.Core;
 using Microsoft.Owin.Hosting;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using Newtonsoft.Json;
 using Owin;
 
-namespace D3.Lightwork.ServiceApi
+namespace Lightwork.ServiceApi
 {
     public class WorkflowApiService
     {

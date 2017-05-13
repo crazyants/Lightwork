@@ -2,9 +2,9 @@
 using System.Net;
 using System.Net.Http;
 using System.Text;
-using D3.Lightwork.Core.Utilities;
+using Lightwork.Core.Utilities;
 
-namespace D3.Lightwork.ServiceApi.Client
+namespace Lightwork.ServiceApi.Client
 {
     public static class Extensions
     {

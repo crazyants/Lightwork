@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
 
-namespace D3.Lightwork.ServiceApi
+namespace Lightwork.ServiceApi
 {
     public static class AppSettings
     {

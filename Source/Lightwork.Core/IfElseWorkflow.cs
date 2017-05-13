@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     [WorkflowBehaviorOnLoad(BypassWorkflow = true)]
     public class IfElseWorkflow : Workflow

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public class ApprovalWorkflow : Workflow<ApprovalWorkflow.ApprovalStates>
     {

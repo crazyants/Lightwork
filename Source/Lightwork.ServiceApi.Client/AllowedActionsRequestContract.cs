@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace D3.Lightwork.ServiceApi.Client
+namespace Lightwork.ServiceApi.Client
 {
     [DataContract]
     public class AllowedActionsRequestContract : GetWorkflowRequestContract

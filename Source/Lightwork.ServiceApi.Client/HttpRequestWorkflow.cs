@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
+using Lightwork.Core;
 
-namespace D3.Lightwork.ServiceApi.Client
+namespace Lightwork.ServiceApi.Client
 {
     [WorkflowBehaviorOnLoad(BypassWorkflow = true)]
     public class HttpRequestWorkflow : Workflow

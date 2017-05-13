@@ -5,15 +5,15 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using D3.Lightwork.Core;
-using D3.Lightwork.Core.Utilities;
-using D3.Lightwork.Data;
-using D3.Lightwork.ServiceApi;
-using D3.Lightwork.ServiceApi.Client;
-using D3.Lightwork.Tests.Workflows;
+using Lightwork.Core;
+using Lightwork.Core.Utilities;
+using Lightwork.Data;
+using Lightwork.ServiceApi;
+using Lightwork.ServiceApi.Client;
+using Lightwork.Tests.Workflows;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace D3.Lightwork.Tests
+namespace Lightwork.Tests
 {
     [TestClass]
     public class IntegrationTests

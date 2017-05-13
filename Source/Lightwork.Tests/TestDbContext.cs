@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 
-namespace D3.Lightwork.Tests
+namespace Lightwork.Tests
 {
     [Table("TestTable")]
     public class TestTable

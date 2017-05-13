@@ -2,12 +2,13 @@
 using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Http;
-using D3.Lightwork.Core;
-using D3.Lightwork.ServiceApi.Client;
+using Lightwork.Core;
+using Lightwork.ServiceApi.Client;
+
 #pragma warning disable 4014
 #pragma warning disable 1998
 
-namespace D3.Lightwork.ServiceApi
+namespace Lightwork.ServiceApi
 {
     [RoutePrefix("Workflow")]
     public class WorkflowController : ApiController

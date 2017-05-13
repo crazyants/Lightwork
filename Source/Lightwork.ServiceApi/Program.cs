@@ -1,6 +1,6 @@
 ﻿using Topshelf;
 
-namespace D3.Lightwork.ServiceApi
+namespace Lightwork.ServiceApi
 {
     public class Program
     {

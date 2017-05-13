@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace D3.Lightwork.Core
+namespace Lightwork.Core
 {
     public class WorkflowCompleteEventArgs : EventArgs
     {
