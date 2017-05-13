@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionAttribute.cs" />
     <Compile Include="ApprovalWorkflow.cs" />
     <Compile Include="Argument.cs" />
     <Compile Include="InheritArgumentAttribute.cs" />

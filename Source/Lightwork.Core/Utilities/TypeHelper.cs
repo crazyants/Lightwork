@@ -44,8 +44,9 @@ namespace Lightwork.Core.Utilities
             var methodFlags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
             var method = obj.GetType().GetMethod(methodName, methodFlags) ??
                 obj.GetType().GetMethod("On" + methodName, methodFlags);
+            var hasActionAttribute = method?.GetCustomAttribute<ActionAttribute>(true) != null;
 
-            return method;
+            return hasActionAttribute ? method : null;
         }
 
         public static object ChangeType(object value, Type type)

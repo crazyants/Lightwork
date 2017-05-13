@@ -101,11 +101,12 @@ namespace Lightwork.Tests.Workflows
             return "Goodbye";
         }
     }
-    
+
     public class NonStateAwaitActionWorkflow : Workflow
     {
         public Argument<string> ActionMessage { get; set; }
 
+        [Action]
         public void OnTakeAction()
         {
             ActionMessage.Value = "Action Taken";
@@ -128,6 +129,7 @@ namespace Lightwork.Tests.Workflows
             Message.Value = "Hello World";
         }
 
+        [Action]
         public void OnExitWorkflow()
         {
             WorkflowInstance.SetExitState();
