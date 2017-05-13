@@ -321,6 +321,7 @@ namespace Lightwork.Tests
                 await instance.Wait();
 
                 Assert.AreEqual(100, progress);
+                Assert.AreEqual(progress, instance.GetArgumentValue<int>("Progress"));
             }
         }
 
