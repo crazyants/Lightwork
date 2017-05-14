@@ -365,9 +365,9 @@ namespace Lightwork.Core
             }
         }
 
-        public async Task<T> Action<T>(string action, string tag = null)
+        public async Task<T> Action<T>(string action, string tag = null, params Argument[] arguments)
         {
-            await BeginAction();
+            await BeginAction(arguments);
             CurrentAction = action;
             CurrentActionTag = tag;
             var result = await OnAction<T>(action, tag);
@@ -645,6 +645,11 @@ namespace Lightwork.Core
             var globalActions = base.GetAllowedActions(includeGlobal, tag);
             return CurrentState.GetAllowedActions(tag).Union(globalActions);
         }
+
+        public IEnumerable<string> GetGlobalActions(string tag = null)
+        {
+            return base.GetAllowedActions(true, tag);
+        } 
 
         public override object TryGetState()
         {

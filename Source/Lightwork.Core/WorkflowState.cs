@@ -319,7 +319,7 @@ namespace Lightwork.Core
         {
             if (!Allows(action, tag))
             {
-                throw new Exception(string.Format("Action {0} not allowed for current state {1}", action, State));
+                throw new Exception($"Action {action} not allowed for current state {State}");
             }
 
             return _outcomes[action];
