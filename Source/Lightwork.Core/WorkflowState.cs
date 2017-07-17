@@ -350,7 +350,7 @@ namespace Lightwork.Core
         public async Task RaiseEvent(string action, string tag = null)
         {
             var func = GetEvent(action);
-            if (!HasTag(action, tag) || func != null)
+            if (HasTag(action, tag) && func != null)
             {
                 await func();
             }
